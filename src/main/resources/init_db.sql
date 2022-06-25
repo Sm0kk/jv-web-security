@@ -6,6 +6,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for drivers
 -- ----------------------------
+
 DROP TABLE IF EXISTS `drivers`;
 CREATE TABLE `drivers`  (
                             `id` bigint(0) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -18,6 +19,7 @@ CREATE TABLE `drivers`  (
 -- ----------------------------
 -- Table structure for manufacturers
 -- ----------------------------
+
 DROP TABLE IF EXISTS `manufacturers`;
 CREATE TABLE `manufacturers`  (
                                   `id` bigint(0) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -30,6 +32,7 @@ CREATE TABLE `manufacturers`  (
 -- ----------------------------
 -- Table structure for cars
 -- ----------------------------
+
 DROP TABLE IF EXISTS `cars`;
 CREATE TABLE `cars`  (
                          `id` bigint(0) UNSIGNED NOT NULL AUTO_INCREMENT,
