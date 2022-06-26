@@ -183,23 +183,14 @@ public class CarDaoImpl implements CarDao {
 
     private void deleteAllDriversExceptList(Car car) {
         Long carId = car.getId();
-        List<Driver> exceptions = car.getDrivers();
-        int size = exceptions.size();
-        String insertQuery = "DELETE FROM cars_drivers WHERE car_id = ? "
-                + "AND NOT driver_id IN ("
-                + ZERO_PLACEHOLDER + ", ?".repeat(size)
-                + ");";
+        String insertQuery = "DELETE FROM cars_drivers WHERE car_id = ?";
         try (Connection connection = ConnectionUtil.getConnection();
                 PreparedStatement deleteAllDriversExceptLinkedStatement =
                         connection.prepareStatement(insertQuery)) {
             deleteAllDriversExceptLinkedStatement.setLong(1, carId);
-            for (int i = 0; i < size; i++) {
-                Driver driver = exceptions.get(i);
-                deleteAllDriversExceptLinkedStatement.setLong((i) + SHIFT, driver.getId());
-            }
             deleteAllDriversExceptLinkedStatement.executeUpdate();
         } catch (SQLException e) {
-            throw new DataProcessingException("Can't delete drivers " + exceptions, e);
+            throw new DataProcessingException("Can't delete drivers from car: " + car, e);
         }
     }
 
