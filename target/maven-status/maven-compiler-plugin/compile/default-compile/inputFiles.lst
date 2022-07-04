@@ -20,6 +20,7 @@
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/car/GetAllCarsController.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/model/Manufacturer.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/service/ManufacturerService.java
+/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/web/filter/AuthenticationFilter.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/car/AddCarController.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/driver/AddDriverController.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/driver/GetAllDriversController.java
@@ -28,7 +29,6 @@
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/service/DriverServiceImpl.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/dao/DriverDaoImpl.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/IndexController.java
-/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/filter/AuthenticationFilterController.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/authentication/LoginController.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/dao/CarDao.java
 /Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/exception/DataProcessingException.java

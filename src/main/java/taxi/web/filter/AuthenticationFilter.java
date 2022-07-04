@@ -1,4 +1,4 @@
-package taxi.controller.filter;
+package taxi.web.filter;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class AuthenticationFilterController implements Filter {
+public class AuthenticationFilter implements Filter {
     private final Set<String> allowedUrls = new HashSet<>();
 
     @Override

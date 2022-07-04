@@ -1,7 +1,6 @@
 taxi/controller/manufacturer/GetAllManufacturersController.class
 taxi/controller/car/AddDriverToCarController.class
 taxi/controller/driver/AddDriverController.class
-taxi/controller/filter/AuthenticationFilterController.class
 taxi/controller/car/GetAllCarsController.class
 taxi/exception/DataProcessingException.class
 taxi/util/ConnectionUtil.class
@@ -16,6 +15,7 @@ taxi/model/Car.class
 taxi/service/DriverServiceImpl.class
 taxi/service/ManufacturerServiceImpl.class
 taxi/service/GenericService.class
+taxi/web/filter/AuthenticationFilter.class
 taxi/dao/CarDao.class
 taxi/controller/manufacturer/AddManufacturerController.class
 taxi/lib/Injector.class

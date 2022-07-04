@@ -2,6 +2,8 @@
 <checkstyle version="8.29">
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/util/ConnectionUtil.java">
 </file>
+<file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/web/filter/AuthenticationFilter.java">
+</file>
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/dao/CarDao.java">
 </file>
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/dao/DriverDaoImpl.java">
@@ -39,8 +41,6 @@
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/driver/GetMyCurrentCarsController.java">
 </file>
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/IndexController.java">
-</file>
-<file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/filter/AuthenticationFilterController.java">
 </file>
 <file name="/Users/Mykola/IdeaProjects/jv-web-security/src/main/java/taxi/controller/authentication/LogoutController.java">
 </file>
